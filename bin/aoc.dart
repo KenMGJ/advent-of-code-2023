@@ -25,7 +25,7 @@ void main(List<String> arguments) {
 
 List<String> readFile(int year, int day) {
 
-  final fileName = 'input/${year}-${day.toString().padLeft(2, '0')}.txt';
+  final fileName = 'input/$year-${day.toString().padLeft(2, '0')}.txt';
   final file = File(fileName);
 
   List<String> lines;

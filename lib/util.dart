@@ -19,3 +19,7 @@ List<List<String>> parseLines(List<String> lines, String pattern, int n) {
 
   return newLines;
 }
+
+int asInt(String? val) {
+  return int.tryParse(val!) ?? 0;
+}
