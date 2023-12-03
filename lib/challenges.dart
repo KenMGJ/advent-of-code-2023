@@ -1,9 +1,9 @@
-import 'package:advent_of_code_2023/202201.dart';
-import 'package:advent_of_code_2023/202202.dart';
-import 'package:advent_of_code_2023/202301.dart';
-import 'package:advent_of_code_2023/202302.dart';
-import 'package:advent_of_code_2023/202303.dart';
-import 'package:advent_of_code_2023/202304.dart';
+import '202201.dart';
+import '202202.dart';
+import '202301.dart';
+import '202302.dart';
+import '202303.dart';
+import '202304.dart';
 
 abstract class Challenge {
   String partOne(List<String> lines);
