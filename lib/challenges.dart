@@ -1,3 +1,5 @@
+import 'package:advent_of_code_2023/202306.dart';
+
 import '202201.dart';
 import '202202.dart';
 import '202301.dart';
@@ -27,6 +29,8 @@ Challenge getChallenge(int year, int day) {
     return Challenge2023Day04();
   } else if (year == 2023 && day == 5) {
     return Challenge2023Day05();
+  } else if (year == 2023 && day == 6) {
+    return Challenge2023Day06();
   } else {
     return ChallengeUnimplemented();
   }
