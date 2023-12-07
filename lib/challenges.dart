@@ -1,5 +1,3 @@
-import 'package:advent_of_code_2023/202306.dart';
-
 import '202201.dart';
 import '202202.dart';
 import '202301.dart';
@@ -7,7 +5,9 @@ import '202302.dart';
 import '202303.dart';
 import '202304.dart';
 import '202305.dart';
+import '202306.dart';
 import '202307.dart';
+import '202308.dart';
 
 abstract class Challenge {
   String partOne(List<String> lines);
@@ -34,6 +34,8 @@ Challenge getChallenge(int year, int day) {
     return Challenge2023Day06();
   } else if (year == 2023 && day == 7) {
     return Challenge2023Day07();
+  } else if (year == 2023 && day == 8) {
+    return Challenge2023Day08();
   } else {
     return ChallengeUnimplemented();
   }
