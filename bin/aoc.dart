@@ -25,8 +25,8 @@ void main(List<String> arguments) {
   var lines = readFile(year, day, suffix);
 
   final challenge = challenges.getChallenge(year, day);
-  print(challenge.partOne(lines));
-  print(challenge.partTwo(lines));
+  print(challenge.partOne(List<String>.from(lines)));
+  print(challenge.partTwo(List<String>.from(lines)));
 }
 
 List<String> readFile(int year, int day, String suffix) {
