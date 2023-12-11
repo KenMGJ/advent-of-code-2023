@@ -11,6 +11,7 @@ import '202308.dart';
 import '202309.dart';
 import '202310.dart';
 import '202311.dart';
+import '202312.dart';
 
 abstract class Challenge {
   String partOne(List<String> lines);
@@ -45,10 +46,11 @@ Challenge getChallenge(int year, int day) {
     return Challenge2023Day10();
   } else if (year == 2023 && day == 11) {
     return Challenge2023Day11();
+  } else if (year == 2023 && day == 12) {
+    return Challenge2023Day12();
   } else {
     return ChallengeUnimplemented();
   }
-
 }
 
 class ChallengeUnimplemented implements Challenge {
