@@ -10,8 +10,10 @@ environment:
 dependencies:
   # path: ^1.8.0
   args: ^2.4.2
+  collection: ^1.18.0
   dart_numerics: ^0.0.6
   stack: ^0.2.1
+  trotter: ^2.2.0
 
 dev_dependencies:
   lints: ^2.1.0
