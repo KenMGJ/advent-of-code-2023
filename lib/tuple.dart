@@ -1,6 +1,6 @@
-class Pair<T> {
+class Pair<T, U> {
   T left;
-  T right;
+  U right;
 
   Pair(this.left, this.right);
 
@@ -21,10 +21,10 @@ class Pair<T> {
   }
 }
 
-class Triple<T> {
+class Triple<T, U, V> {
   T left;
-  T middle;
-  T right;
+  U middle;
+  V right;
 
   Triple(this.left, this.middle, this.right);
 
